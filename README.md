@@ -1,5 +1,4 @@
-husky-hooks
-===========
+# husky-hooks
 
 Some handly command line utils to use in git hooks
 
@@ -7,5 +6,6 @@ Some handly command line utils to use in git hooks
 
 ### add-ticket-prefix
 
-`add-ticket-prefix ${GIT_PARAMS}`
+Branch name must be in format XXX-XXX_whatever
 
+`add-ticket-prefix ${GIT_PARAMS}`
