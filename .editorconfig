@@ -1,0 +1,4 @@
+[*.{ts,tsx,scss}]
+indent_size = 4
+[*.yml]
+indent_size = 2
