@@ -7,8 +7,11 @@
     "dev:serve": "lite-server -c server.config.json",
     "lint": "tslint ./src/**/*.{ts,tsx}",
     "lint:fix": "tslint --fix ./src/**/*.{ts,tsx}",
-    "prepublishOnly": "npm i && tsc",
+    "prepublishOnly": "npm i && tsc && chmod +x dist/*.js",
     "test": "echo y"
+  },
+  "bin": {
+    "add-ticket-prefix": "./dist/add-ticket-prefix.js"
   },
   "repository": {
     "type": "git",

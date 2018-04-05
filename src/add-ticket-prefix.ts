@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import * as fs from 'fs'
 const branch = require('git-branch')
 
