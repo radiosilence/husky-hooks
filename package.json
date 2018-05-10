@@ -9,7 +9,7 @@
     "test": "echo y"
   },
   "bin": {
-    "add-ticket-prefix": "./dist/add-ticket-prefix.sh"
+    "add-ticket-prefix": "./add-ticket-prefix.sh"
   },
   "repository": {
     "type": "git",
