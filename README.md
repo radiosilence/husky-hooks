@@ -8,4 +8,4 @@ Some handly command line utils to use in git hooks
 
 Branch name must be in format XXX-XXX_whatever
 
-`add-ticket-prefix ${GIT_PARAMS}`
+`add-ticket-prefix ${HUSKY_GIT_PARAMS}`
