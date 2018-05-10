@@ -1,17 +1,15 @@
 {
   "name": "husky-hooks",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev:serve": "lite-server -c server.config.json",
-    "lint": "tslint ./src/**/*.{ts,tsx}",
     "lint:fix": "tslint --fix ./src/**/*.{ts,tsx}",
-    "prepublishOnly": "npm i && tsc && chmod +x dist/*.js",
+    "prepublishOnly": "chmod +x dist/*.sh",
     "test": "echo y"
   },
   "bin": {
-    "add-ticket-prefix": "./dist/add-ticket-prefix.js"
+    "add-ticket-prefix": "./dist/add-ticket-prefix.sh"
   },
   "repository": {
     "type": "git",
@@ -23,15 +21,6 @@
     "url": "https://github.com/radiosilence/husky-hooks/issues"
   },
   "homepage": "https://github.com/radiosilence/husky-hooks#readme",
-  "devDependencies": {
-    "@types/node": "9.6.2",
-    "prettier": "1.11.1",
-    "tslint": "5.9.1",
-    "tslint-config-prettier": "1.10.0",
-    "tslint-plugin-prettier": "1.3.0",
-    "typescript": "2.8.1"
-  },
-  "dependencies": {
-    "git-branch": "2.0.1"
-  }
+  "devDependencies": {},
+  "dependencies": {}
 }
